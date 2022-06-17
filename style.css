@@ -118,9 +118,123 @@ html, body{
     opacity: 100%;
     transition: all 0.3s ease-in-out;
 }
-@media screen and (max-width: 800px){
-    .bottom, .right{
+@media screen and (max-width: 825px){
+    .left{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenedor{
+        order: -1;
+    }
+    .right{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: flex-start;
+    }
+}
+@media screen and (max-width: 415px){
+    .bottom{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        order: 0;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .bottom div img{
+        padding: 0px;
+        margin: 0px;
+    }
+    .left {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        order: 1;
+        align-content: flex-start;
+    }
+    .right{
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        order: 2;
+    }
+    .center{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .top{
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrap{
+        order: 2;
+    }
+    .nombre{
+        order:1;
+    }
+}
+@media screen and (max-width: 380px){
+    .bottom{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        order: 0;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .bottom div img{
+        padding: 0px;
+        margin: 0px;
+    }
+    .left {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        order: 1;
+        align-content: flex-start;
+    }
+    .right{
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        order: 2;
+    }
+    .center{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .top{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrap{
+        order: 2;
+    }
+    .nombre{
+        order:1;
     }
 }
 #objetivo{
@@ -194,4 +308,3 @@ html, body{
     transform: scale(1.25);
     opacity: 100%;
 }
-

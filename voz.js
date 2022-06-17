@@ -92,13 +92,7 @@ function JARVIS(){
                  repro.play();
                }
             }
-         for(var g = 0; g <= patronGrabar.length; g++){
-               let grabar = ing.includes(patronGrabar[g]);
-               let grabacion = document.getElementById('novedad');
-               if (grabar == true){
-                  grabacion.play();
-               }
-            }
+         
          for(var b = 0; b <= patronBuscar.length; b++){//buscar en páginas
                let buscar = ing.includes(patronBuscar[b]);
                let bGoogle = ing.includes("google");
